@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IsAliceOrBobTest
+comment0.text=\n\ @author\ git-leon\n\ @version\ 1.0.0\n\ @date\ 5/19/21\ 5\:07\ PM\n\ Used\ to\ test\ `AliceAndBobEngine.isAliceOrBob`\n
+comment1.params=input\ expected
+comment1.target=void\ testIsAliceOrBob(java.lang.String,\ java.lang.Boolean)
+comment2.params=
+comment2.target=void\ testIsAliceOrBobTrue()
+comment3.params=
+comment3.target=void\ testIsAliceOrBobFalse()
+numComments=4

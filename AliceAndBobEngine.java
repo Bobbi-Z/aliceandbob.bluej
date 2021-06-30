@@ -10,17 +10,28 @@ public class AliceAndBobEngine {
      * @return `true` if `input` is "Alice"
      */
     public Boolean isAlice(String input) {
-        return null;
+       
+       if(input == "Alice"){
+            return true;  
     }
-
+        else{
+            return false;
+        }
+    }    
     /**
      * return `true` if the input value is "Bob"
      * @param input - this value is variable: it has the potential to be many things
      * @return `true` if `input` is "Bob"
      */
     public Boolean isBob(String input) {
-        return null;
+     
+        if (input == "Bob"){
+            return true;
+        }
+        else{
+        return false;
     }
+}
 
     /**
      * return `true` if the input value is "Alice" or "Bob"
@@ -28,8 +39,18 @@ public class AliceAndBobEngine {
      * @return `true` if `input` is "Alice" or "Bob"
      */
     public Boolean isAliceOrBob(String input) {
-        return null;
-    }
+        if (input == "Alice"){
+            return true;
+        }
+        else if (input == "Bob"){
+            return true;
+        }
+        else{
+             return false;   
+            }
+            
+        }
+
 
     /**
      * if the input value is "Alice" or "Bob", then
@@ -42,6 +63,14 @@ public class AliceAndBobEngine {
      * @return respective String value
      */
     public String getGreeting(String input) {
-        return null;
+       if (input == "Alice"){
+           return "Hello, Alice!";
+       }
+       else if (input == "Bob"){
+           return "Hello, Bob!";
+       }
+       else {
+           return "Begone, " + input + "! You're a stranger!";
+       }
     }
 }

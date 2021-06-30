@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=AliceAndBobEngine
+comment0.text=\n\ @author\ git-leon\n\ @version\ 1.0.0\n\ @date\ 5/19/21\ 5\:05\ PM\n
+comment1.params=input
+comment1.target=java.lang.Boolean\ isAlice(java.lang.String)
+comment1.text=\n\ return\ `true`\ if\ the\ input\ value\ is\ "Alice"\n\ @param\ input\ -\ this\ value\ is\ variable\:\ it\ has\ the\ potential\ to\ be\ many\ things\n\ @return\ `true`\ if\ `input`\ is\ "Alice"\n
+comment2.params=input
+comment2.target=java.lang.Boolean\ isBob(java.lang.String)
+comment2.text=\n\ return\ `true`\ if\ the\ input\ value\ is\ "Bob"\n\ @param\ input\ -\ this\ value\ is\ variable\:\ it\ has\ the\ potential\ to\ be\ many\ things\n\ @return\ `true`\ if\ `input`\ is\ "Bob"\n
+comment3.params=input
+comment3.target=java.lang.Boolean\ isAliceOrBob(java.lang.String)
+comment3.text=\n\ return\ `true`\ if\ the\ input\ value\ is\ "Alice"\ or\ "Bob"\n\ @param\ input\ -\ this\ value\ is\ variable\:\ it\ has\ the\ potential\ to\ be\ many\ things\n\ @return\ `true`\ if\ `input`\ is\ "Alice"\ or\ "Bob"\n
+comment4.params=input
+comment4.target=java.lang.String\ getGreeting(java.lang.String)
+comment4.text=\n\ if\ the\ input\ value\ is\ "Alice"\ or\ "Bob",\ then\n\ \ \ \ \ \ return\ "Hello\ PERSONSNAME\!",\n\ otherwise\n\ \ \ \ \ \ return\ "Begone,\ PERSONNAME\!\ You're\ a\ stranger\!",\n\ where\ `PERSONNAME`\ is\ replaced\ with\ the\ person's\ name\ respectively.\n\n\ @param\ input\ -\ this\ value\ is\ variable\:\ it\ has\ the\ potential\ to\ be\ many\ things\n\ @return\ respective\ String\ value\n
+numComments=5
